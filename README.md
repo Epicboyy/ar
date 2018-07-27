@@ -7,7 +7,7 @@ How to run Bot :
 ------
 Di C9 :
 - `sudo apt-get update`
-- Ketik -> `sudo apt-get install git`
+- `sudo apt-get install git`
 - Ketik -> `sudo apt-get install python-sofware-properties`
 - Ketik -> `sudo pip install rsa`
 - Ketik -> `sudo pip install thrift==0.9.3`
