@@ -2,7 +2,6 @@
 BOT PROTECT CREATOR & ADMIN
 ------
 
--
 How to run Bot :
 ------
 C9 :
