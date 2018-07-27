@@ -2121,7 +2121,7 @@ def bot(op):
                 arif.inviteIntoGroup(msg.to,[midd])
 
             elif "Invite creator" in msg.text:
-                midd = "uc889c1f8f74274f117e0a0d69ccc559c"
+                midd = "uf4924f41633f72613bb0990f38a93da0"
                 arif.inviteIntoGroup(msg.to,[midd])
 
             elif msg.text in ["Welcome","welcome","Welkam","welkam","Wc","wc"]:
@@ -2139,7 +2139,7 @@ def bot(op):
 		gid = arif.getGroupIdsJoined()
 		if msg.from_ in Creator:
 		    for i in gid:
-			arif.sendText(i,"=======[BROADCAST]=======\n\n"+bc+"\n\nContact Me : line.me/ti/p/~arifistifik")
+			arif.sendText(i,"=======[BROADCAST]=======\n\n"+bc+"\n\nContact Me : line.me/ti/p/~")
 		    arif.sendText(msg.to,"Success BC BosQ")
 		else:
 		    arif.sendText(msg.to,"Khusus Admin")
