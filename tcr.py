@@ -25,12 +25,12 @@ kc = LINETCR.LINE()
 kc.login(token="EvExfm0sbQZZvHIhNrS7.zHaODuDXU8bfbqzFy+szXW.TRh3vdqhn/6cTv8z5xkQGHLR+/6/X0GCXPx7xGO1ow8=")
 kc.loginResult() 
 
-print "login success"
+print "登入成功"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage ="""🇮🇩🇮🇩🇮🇩🇮🇩DPK BOT🇮🇩🇮🇩🇮🇩🇮🇩
-🇮🇩🇮🇩🇮🇩🇮🇩DPK BOT🇮🇩🇮🇩🇮🇩🇮🇩
+helpMessage ="""DPK BOT
+DPK BOT
 [Id︎]
 [Mid]
 [Me︎]
@@ -50,9 +50,9 @@ helpMessage ="""🇮🇩🇮🇩🇮🇩🇮🇩DPK BOT🇮🇩🇮🇩🇮🇩�
 [Change clock:「name」]
 [Up]
 [DPK join]
-🇮🇩🇮🇩🇮🇩🇮🇩DPK BOT🇮🇩🇮🇩🇮🇩🇮🇩
+DPK BOT
 [*] Command in the groups [*]
-🇮🇩🇮🇩🇮🇩🇮🇩DPK BOT🇮🇩🇮🇩🇮🇩🇮🇩
+DPK BOT
 [Curl]
 [Ourl]
 [url]
@@ -64,9 +64,9 @@ helpMessage ="""🇮🇩🇮🇩🇮🇩🇮🇩DPK BOT🇮🇩🇮🇩🇮🇩�
 [Cancel]
 [Gn 「group name」]
 [Nk 「name」]
-🇮🇩🇮🇩🇮🇩🇮🇩DPK BOT🇮🇩🇮🇩🇮🇩🇮🇩
+DPK BOT
 [*] Command kicker only [*]
-🇮🇩🇮🇩🇮🇩🇮🇩DPK BOT🇮🇩🇮🇩🇮🇩🇮🇩
+DPK BOT
 [Bye]
 [Kill ban]
 [Kill 「@」]
@@ -83,8 +83,8 @@ helpMessage ="""🇮🇩🇮🇩🇮🇩🇮🇩DPK BOT🇮🇩🇮🇩🇮🇩�
 [Respo︎n]
 [Bot cancel]
 [Title:]
-🇮🇩🇮🇩🇮🇩🇮🇩DPK BOT🇮🇩🇮🇩🇮🇩🇮🇩
-🇮🇩🇮🇩🇮🇩🇮🇩DPK BOT🇮🇩🇮🇩🇮🇩🇮🇩"""
+DPK BOT
+DPK BOT"""
 KAC=[cl,ki,kk,kc]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
@@ -92,7 +92,7 @@ Bmid = kk.getProfile().mid
 Cmid = kc.getProfile().mid
 
 Bots=[mid,Amid,Bmid,Cmid]
-admin=["uc889c1f8f74274f117e0a0d69ccc559c"]
+admin=["uf4924f41633f72613bb0990f38a93da0"]
 wait = {
     'contact':False,
     'autoJoin':True,
@@ -678,7 +678,7 @@ def bot(op):
                     X.preventJoinByTicket = False
                     ki.updateGroup(X)
                     if wait["lang"] == "JP":
-                        ki.sendText(msg.to,"Done BOS")
+                        ki.sendText(msg.to,"Done BOSS")
                     else:
                         ki.sendText(msg.to,"already open")
                 else:
@@ -692,7 +692,7 @@ def bot(op):
                     X.preventJoinByTicket = False
                     kk.updateGroup(X)
                     if wait["lang"] == "JP":
-                        kk.sendText(msg.to,"Done BOS")
+                        kk.sendText(msg.to,"Done BOSS")
                     else:
                         kk.sendText(msg.to,"already open")
                 else:
@@ -706,7 +706,7 @@ def bot(op):
                     X.preventJoinByTicket = False
                     kc.updateGroup(X)
                     if wait["lang"] == "JP":
-                        kc.sendText(msg.to,"Done BOS")
+                        kc.sendText(msg.to,"Done BOSS")
                     else:
                         kc.sendText(msg.to,"already open")
                 else:
@@ -734,7 +734,7 @@ def bot(op):
                     X.preventJoinByTicket = True
                     ki.updateGroup(X)
                     if wait["lang"] == "JP":
-                        ki.sendText(msg.to,"Done BOS")
+                        ki.sendText(msg.to,"Done BOSS")
                     else:
                         ki.sendText(msg.to,"already close")
                 else:
@@ -748,7 +748,7 @@ def bot(op):
                     X.preventJoinByTicket = True
                     kk.updateGroup(X)
                     if wait["lang"] == "JP":
-                        kk.sendText(msg.to,"Done BOS")
+                        kk.sendText(msg.to,"Done BOSS")
                     else:
                         kk.sendText(msg.to,"already close")
                 else:
@@ -762,7 +762,7 @@ def bot(op):
                     X.preventJoinByTicket = True
                     kc.updateGroup(X)
                     if wait["lang"] == "JP":
-                        kc.sendText(msg.to,"Done BOS")
+                        kc.sendText(msg.to,"Done BOSS")
                     else:
                         kc.sendText(msg.to,"already close")
                 else:
