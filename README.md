@@ -6,7 +6,7 @@ BOT PROTECT CREATOR & ADMIN
 How to run Bot :
 ------
 Di C9 :
- `sudo apt-get update`
+- `sudo apt-get update`
 - Ketik -> `sudo apt-get install git`
 - Ketik -> `sudo apt-get install python-sofware-properties`
 - Ketik -> `sudo pip install rsa`
