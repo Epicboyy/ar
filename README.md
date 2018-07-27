@@ -45,9 +45,9 @@ Termux :
 - `python2 arif.py`
 
 
-Credit By@ arifistifik.
+Credit By@arifistifik
 ------
-- `Contact him : arifistifik`
+- `Contact him:arifistifik`
 
 Thx To :
 ------
