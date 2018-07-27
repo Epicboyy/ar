@@ -15,7 +15,7 @@ C9 :
 - `sudo pip install bs4`
 - `sudo pip install gtts`
 - `sudo pip install googletrans`
-- `git clone https://github.com/arifistifik/ar`
+- `git clone https://github.com/Epicboyy/ar`
 - `cd ar`
 - `python arif.py`
 
