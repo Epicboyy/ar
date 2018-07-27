@@ -7,22 +7,22 @@ import time,random,sys,json,codecs,threading,glob,re
 
 cl = LINETCR.LINE()
 #cl.login(qr=True)
-cl.login(token="EvzWRUlQi2qVdvxT1TDb.0PzLwS72Fl1EGGJMnIN3IW.XCQH4jCs+dM1ip6oAbLChXXF0KSaBccoZeOF7okmDqU=")
+cl.login(token="token")
 cl.loginResult()
 
 ki = LINETCR.LINE()
 #ki.login(qr=True)
-ki.login(token="EvmMcyVbHqYmAoo7KYCf.zsjptOGse28bSLj1PuTA7W.0DLtf4DuY6oICyKFJFm+dOf4cdHAe8XAykrOQRF93IU=")
+ki.login(token="token")
 ki.loginResult()
 
 kk = LINETCR.LINE()
 #kk.login(qr=True)
-kk.login(token="Ev4SGZbV1ozhcOsCzmO7.L9FHe7uzKTCG1RQIn1TiTW.4Rq/V2226a5HhbdNnSyi8CdQNw71XpFrTTMp7+zM7qo=")
+kk.login(token="token")
 kk.loginResult()
 
 kc = LINETCR.LINE()
 #kc.login(qr=True)
-kc.login(token="EvExfm0sbQZZvHIhNrS7.zHaODuDXU8bfbqzFy+szXW.TRh3vdqhn/6cTv8z5xkQGHLR+/6/X0GCXPx7xGO1ow8=")
+kc.login(token="token")
 kc.loginResult() 
 
 print "登入成功"
