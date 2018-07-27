@@ -26,7 +26,7 @@ ghost = LINETCR.LINE() #(bot ini di luar grup fungsinya jadi algojo kaya kicker 
 #ghost.login(qr=True)
 ghost.login(token='Euj8Jw5gEAVKceUMu9Dd.shyzkohN5EqZUaaBNnCr+q.ODFnuH2T7J3WdNKjyXhFPWUUw+B24WmhFXWpYkXzgcw=')
 ghost.loginResult()
-print "Ghost-Login Success\n\n=====[Sukses All Login]====="
+print "Ghost-Login Success\n\n=====[登入成功]====="
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -128,7 +128,7 @@ groupMessage ="""
 │▪〔Urlgroup Image〕
 ╰───────────────╯
 """
-ar="u65224f4e8812136f01b25275a54b5aef"
+ar="uf4924f41633f72613bb0990f38a93da0"
 
 setMessage ="""
 ╭──────────────╮
@@ -226,9 +226,9 @@ KAC=[cl,ghost,arif]
 mid = cl.getProfile().mid
 Emid = ghost.getProfile().mid
 Fmid = arif.getProfile().mid
-Bots=[mid,Emid,Fmid,"u65224f4e8812136f01b25275a54b5aef"]
-Creator=["u65224f4e8812136f01b25275a54b5aef"]
-admin=["u65224f4e8812136f01b25275a54b5aef"]
+Bots=[mid,Emid,Fmid,"uf4924f41633f72613bb0990f38a93da0"]
+Creator=["ufe1707ae9b2ff7ab61505795b7995440"]
+admin=["uf4924f41633f72613bb0990f38a93da0"]
 
 contact = cl.getProfile()
 backup1 = cl.getProfile()
@@ -267,7 +267,7 @@ wait = {
     "comment5":"Auto Like ©By : Arif\nContact Me : ⏩ line.me/ti/p/~arifistifik",    
     "commentOn":True,
     "commentBlack":{},
-    "message":"Thx For Add Me (^_^)",    
+    "message":"感謝您加我好友 (^_^)",    
     "blacklist":{},
     "wblacklist":False,
     "dblacklist":False,
