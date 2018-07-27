@@ -20,7 +20,7 @@ C9 :
 - `python arif.py`
 
 Termux :
-- `pkg update`
+-`pkg update`
 - Ketik -> `pkg install git`
 - Ketik -> `pkg install python2`
 - Ketik -> `pip2 install rsa`
