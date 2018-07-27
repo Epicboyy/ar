@@ -100,9 +100,9 @@ wait = {
     'leaveRoom':True,
     'timeline':True,
     'autoAdd':True,
-    'message':"Thanks for add me",
+    'message':"感謝您加我好友",
     "lang":"JP",
-    "comment":"Thanks for add me",
+    "comment":"感謝您加我好友",
     "commentOn":True,
     "commentBlack":{},
     "wblack":False,
@@ -1695,9 +1695,9 @@ def bot(op):
                 kc.sendText(msg.to,"PONG 􀨁􀄻double thumbs up􏿿􀜁􀅔Har Har􏿿")
 #-----------------------------------------------
             elif msg.text in ["Respon","respon"]:
-                ki.sendText(msg.to,"DPK1")
-                kk.sendText(msg.to,"DPK2")
-                kc.sendText(msg.to,"DPK3")
+                ki.sendText(msg.to,"1")
+                kk.sendText(msg.to,"2")
+                kc.sendText(msg.to,"3")
 #-----------------------------------------------
 
             elif msg.text in ["Sp","Speed","speed"]:
