@@ -5,23 +5,23 @@ BOT PROTECT CREATOR & ADMIN
 -
 How to run Bot :
 ------
-Di C9 :
+C9 :
 - `sudo apt-get update`
 - `sudo apt-get install git`
 - `sudo apt-get install python-sofware-properties`
 - `sudo pip install rsa`
 - `sudo pip install thrift==0.9.3`
 - `sudo pip install requests`
-- Ketik -> `sudo pip install requests==2.5.3`
-- Ketik -> `sudo pip install bs4`
-- Ketik -> `sudo pip install gtts`
-- Ketik -> `sudo pip install googletrans`
-- Ketik -> `git clone https://github.com/arifistifik/ar`
-- Ketik -> `cd ar`
-- Ketik -> `python arif.py`
+- `sudo pip install requests==2.5.3`
+- `sudo pip install bs4`
+- `sudo pip install gtts`
+- `sudo pip install googletrans`
+- `git clone https://github.com/arifistifik/ar`
+- `cd ar`
+- `python arif.py`
 
-Di Termux :
-- Ketik -> `pkg update`
+Termux :
+- `pkg update`
 - Ketik -> `pkg install git`
 - Ketik -> `pkg install python2`
 - Ketik -> `pip2 install rsa`
