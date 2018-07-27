@@ -1,15 +1,12 @@
-# Arif
+
 BOT PROTECT CREATOR & ADMIN
 ------
-GET TOKEN :
-------
-- `Google Chrome`
-- `http://101.255.95.249:6969`
+
 -
-Cara Install Bot :
+How to run Bot :
 ------
 Di C9 :
-- Ketik -> `sudo apt-get update`
+ `sudo apt-get update`
 - Ketik -> `sudo apt-get install git`
 - Ketik -> `sudo apt-get install python-sofware-properties`
 - Ketik -> `sudo pip install rsa`
