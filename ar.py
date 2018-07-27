@@ -12,7 +12,7 @@ import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,
 
 arif = LINETCR.LINE()
 #arif.login(qr=True)
-arif.login(token='EuhWLiSNqbRmNq7NUbqc.YiNb/pDcDpex4kdwNmXvNa.PkjXAP9mCyQEeTimSqMUr5CqwAnvpiGV8W6FvqPVx1I=')
+arif.login(token='token')
 arif.loginResult()
 print "arif-Login Success\n\n=====[登入成功]====="
 
