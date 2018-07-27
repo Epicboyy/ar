@@ -49,7 +49,8 @@ Credit By@arifistifik
 ------
 - `Contact him:arifistifik`
 
-Thx To :
+Special Thanks To :
 ------
 - `LINE-TCR TEAM`
+- `Arifistifik`
 
