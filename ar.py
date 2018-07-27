@@ -194,7 +194,7 @@ groupMessage ="""
 ┣━⏩wuching━⏩
 ╰━━━━━━━━━━━━━━━╯
 """
-ar="ub8a07a67c06f966ce24bb0a023edc634"
+ar="uf4924f41633f72613bb0990f38a93da0"
 
 setMessage ="""
 ╭━━━━━━━━━━━━━━━╮
@@ -447,8 +447,8 @@ helpMessage ="""
 KAC=[arif]
 mid = arif.getProfile().mid
 Bots=[mid]
-Creator=["ub8a07a67c06f966ce24bb0a023edc634"]
-admin=["ub8a07a67c06f966ce24bb0a023edc634"]
+Creator=["uf4924f41633f72613bb0990f38a93da0"]
+admin=["uf4924f41633f72613bb0990f38a93da0"]
 
 contact = arif.getProfile()
 backup1 = arif.getProfile()
@@ -481,10 +481,10 @@ wait = {
     'sticker':False,  
     'timeline':True,
     "Timeline":True,
-    "comment":"Bot Auto Like ©By : arif\nContact Me : 👉 line.me/ti/p/~",    
+    "comment":"Bot Auto Like ©By : wuching\nContact Me : 👉 line.me/ti/p/~",    
     "commentOn":True,
     "commentBlack":{},
-    "message":"Thx For Add Me (^_^)\nInvite Me To Your Group ヘ(^_^)ヘ",    
+    "message":"感謝您加我好友 (^_^)\n現在您可以邀請我到群組 ヘ(^_^)ヘ",    
     "blacklist":{},
     "wblacklist":False,
     "dblacklist":False,
