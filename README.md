@@ -21,33 +21,33 @@ C9 :
 
 Termux :
 - `pkg update`
-- Ketik -> `pkg install git`
-- Ketik -> `pkg install python2`
-- Ketik -> `pip2 install rsa`
-- Ketik -> `pip2 install thrift==0.9.3`
-- Ketik -> `pip2 install requests`
-- Ketik -> `pip2 install bs4`
-- Ketik -> `pip2 install gtts`
-- Ketik -> `pip2 install beautifulsoup`
-- Ketik -> `pip2 install googletrans`
-- Ketik -> `git clone https://github.com/arifistifik/ar`
-- Ketik -> `cd ar`
-- Ketik -> `python2 arif.py`
+- `pkg install git`
+- `pkg install python2`
+- `pip2 install rsa`
+- `pip2 install thrift==0.9.3`
+- `pip2 install requests`
+- `pip2 install bs4`
+- `pip2 install gtts`
+- `pip2 install beautifulsoup`
+- `pip2 install googletrans`
+- `git clone https://github.com/arifistifik/ar`
+- `cd ar`
+- `python2 arif.py`
 
-Cara Menjalankan Bot Kembali :
+Run Bot  :
 ------
-Di C9 :
-- Ketik -> `cd ar`
-- Ketik -> `python arif.py`
+C9 :
+- `cd ar`
+- `python arif.py`
 
-Di Termux :
-- Ketik -> `cd ar`
-- Ketik -> `python2 arif.py`
+Termux :
+- `cd ar`
+- `python2 arif.py`
 
 
 Credit By@ arifistifik.
 ------
-- `Add My ID LINE : arifistifik`
+- `Contact him : arifistifik`
 
 Thx To :
 ------
