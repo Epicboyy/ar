@@ -1,27 +1,23 @@
-# Arif
+# 
 BOT PROTECT CREATOR & ADMIN
 ------
-GET TOKEN :
-------
-- `Google Chrome`
-- `http://101.255.95.249:6969`
--
-Cara Install Bot :
+
+How to run Bot :
 ------
 Di C9 :
-- Ketik -> `sudo apt-get update`
-- Ketik -> `sudo apt-get install git`
-- Ketik -> `sudo apt-get install python-sofware-properties`
-- Ketik -> `sudo pip install rsa`
-- Ketik -> `sudo pip install thrift==0.9.3`
-- Ketik -> `sudo pip install requests`
-- Ketik -> `sudo pip install requests==2.5.3`
-- Ketik -> `sudo pip install bs4`
-- Ketik -> `sudo pip install gtts`
-- Ketik -> `sudo pip install googletrans`
-- Ketik -> `git clone https://github.com/arifistifik/ar`
-- Ketik -> `cd ar`
-- Ketik -> `python arif.py`
+sudo apt-get update
+sudo apt-get install git
+sudo apt-get install python-sofware-properties
+sudo pip install rsa
+sudo pip install thrift==0.9.3
+sudo pip install requests
+sudo pip install requests==2.5.3
+sudo pip install bs4
+sudo pip install gtts
+sudo pip install googletrans
+git clone https://github.com/Epicboyy/ar
+cd ar
+python arif.py
 
 Di Termux :
 - Ketik -> `pkg update`
@@ -51,7 +47,7 @@ Di Termux :
 
 Credit By@ arifistifik.
 ------
-- `Add My ID LINE : arifistifik`
+
 
 Thx To :
 ------
