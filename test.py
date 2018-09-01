@@ -6,68 +6,68 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re
 
 cl = LINETCR.LINE()
-cl.login(qr=True)
-cl.loginResult()
+#cl.login(qr=True)
+cl.login(token="EwBn1XcQysFxtOnyLtDf.jxorRZbOqBNQcmQEXgUMRW.9d+vobv/eDDuF4RjxCRZKbvXEjCMxIjWSHxPfb2/gpI=")
 
 ki = kk = kc = cl 
 
-print "login success"
+print "莫言降臨"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
 helpMessage =""" 莫言 Bot
-[Id︎]
-[Mid]
-[Me︎]
+[Id︎] x
+[Mid] 丟出mid
+[Me︎] 丟出自己友資
 [TL︎:「Text」]
-[Mc 「mid」]
-[K on/off]
-[Join︎ on/off]
-[Gcancel:︎「Number of people」]
-[Group cancelalll︎]
-[Leave︎ on/off]
-[Add on/off]
-[Share on/off]
-[Message change:「text」]
-[Message check]
-[Confirm]
-[Jam on/off]
-[Change clock:「name」]
-[Up]
-[Cv join]
+[Mc 「mid」] 
+[K on/off] x
+[Join︎ on/off] 自動加入群組開/關
+[Gcancel:︎「Number of people」] 取消邀請:人數
+[Group cancelall] 取消群組邀請
+[Leave︎ on/off] 自動離開副本
+[Add on/off] 自動加入好友
+[Share on/off] 
+[Message change:「text」] 加入好友訊息
+[Message check] 確認加入好友訊息
+[Confirm] ?
+[Jam on/off] 更新時間
+[Change clock:「name」] 更換時鐘
+[Up] 更新時間
+[Cv join] x
 
 [*] Command in the groups [*]
 
-[Curl]
+[Curl] 
 [Ourl]
-[url]
-[url:「Group ID」]
-[Invite：「mid」]
-[Kick：「mid」]
-[Ginfo]
-[jointicket]
-[Cancel]
-[Gn 「group name」]
-[Nk 「name」]
+[url] 群組網址
+[url:「Group ID」] 
+[Invite：「mid」] 邀請mid
+[Kick：「mid」] 踢mid
+[Ginfo] 群組資訊
+[jointicket] 群組網址
+[Cancel] 取消邀請
+[Gn 「group name」] 更改群組名稱
+[Nk 「name」] 踢(名字)
 
 [*] Command kicker only [*]
 
-[Bye]
-[Kill ban]
-[Kill 「@」]
-[Ban 「@」] By Tag
-[Unban 「@」] By Tag
-[Ban︎] Share Contact
-[Unban︎] Share Contact
-[Banlist︎]
-[Cek ban]
-[Cv mid]
-[Cv ︎invite:「mid」]
-[Cv ︎rename:「name」]
-[Cv ︎gift]
-[Respo︎n]
-[Bot cancel]
-[Title:]
+[Bye] x
+[Kill ban] 剔除黑單
+[Kill 「@」] 標註踢人
+[Ban 「@」] By Tag 標註黑單
+[Unban 「@」] By Tag 標註解黑
+[Ban︎] Share Contact 友資黑單
+[Unban︎] Share Contact 友資解黑
+[Banlist︎] 查看黑單
+[Cek ban] 確認黑單
+[Cv mid] 丟出自己mid
+[Cv ︎invite:「mid」] 邀請mid
+[Cv ︎rename:「name」] x
+[Cv ︎gift] x
+[Respo︎n] 報到
+[Bot cancel] x
+[Title:] x 
 """
 KAC=[cl,ki,kk,kc]
 mid = cl.getProfile().mid
@@ -84,9 +84,9 @@ wait = {
     'leaveRoom':True,
     'timeline':True,
     'autoAdd':True,
-    'message':"Thanks for add me",
+    'message':"安安 感謝您加我好友 (^_^)\n🌈我的作者:©莫言♡™🌈\nhttps://line.me/ti/p/4-LFlTx31f\n",
     "lang":"JP",
-    "comment":"Thanks for add me",
+    "comment":"安安 感謝您加我好友 (^_^)\n🌈我的作者:©莫言♡™🌈\nhttps://line.me/ti/p/4-LFlTx31f\n",
     "commentOn":False,
     "commentBlack":{},
     "wblack":False,
@@ -1317,7 +1317,7 @@ def bot(op):
                     profile = cl.getProfile()
                     profile.displayName = wait["cName"] + nowT
                     cl.updateProfile(profile)
-                    cl.sendText(msg.to,"Jam Update")
+                    cl.sendText(msg.to,"時間已更新")
                 else:
                     cl.sendText(msg.to,"Please turn on the name clock")
 
