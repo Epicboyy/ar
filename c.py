@@ -15,59 +15,42 @@ print "莫言降臨"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage =""" 莫言 Bot
-[Id︎] x
-[Mid] 丟出mid
-[Me︎] 丟出自己友資
-[TL︎:「Text」]
-[Mc 「mid」] 
-[K on/off] x
-[Join︎ on/off] 自動加入群組開/關
-[Gcancel:︎「Number of people」] 取消邀請:人數
-[Group cancelall] 取消群組邀請
-[Leave︎ on/off] 自動離開副本
-[Add on/off] 自動加入好友
-[Share on/off] 
-[Message change:「text」] 加入好友訊息
-[Message check] 確認加入好友訊息
-[Confirm] ?
-[Jam on/off] 更新時間
-[Change clock:「name」] 更換時鐘
+helpMessage =""" 莫言のBot
+Id︎ 群組id
+Mid 丟出mid
+Me︎ 丟出自己友資
+Mc 「mid」
+K on/off 鑑定友資
+Join︎ on/off 自動加入群組開/關
+Gcancel:︎「Number of people」 取消邀請:人數
+Leave︎ on/off 自動離開副本
+Add on/off 自動加入好友
+Share on/off]
 [Up] 更新時間
-[Cv join] x
 
-[*] Command in the groups [*]
+❂ 群組指令 ❂
 
-[Curl] 
-[Ourl]
-[url] 群組網址
-[url:「Group ID」] 
-[Invite：「mid」] 邀請mid
-[Kick：「mid」] 踢mid
-[Ginfo] 群組資訊
-[jointicket] 群組網址
-[Cancel] 取消邀請
-[Gn 「group name」] 更改群組名稱
-[Nk 「name」] 踢(名字)
+Ourl 開啟群組網址
+Curl 關閉群組網址
+url 群組網址
+url:「Group ID」 
+Invite：「mid」 mid邀人
+Kick：「mid」 mid踢人
+Ginfo 群組資訊
+Cancel 取消邀請
+Gn 群組名稱 更改群組名稱
 
-[*] Command kicker only [*]
+❂ 踢人指令 ❂
 
-[Bye] x
-[Kill ban] 剔除黑單
-[Kill 「@」] 標註踢人
-[Ban 「@」] By Tag 標註黑單
-[Unban 「@」] By Tag 標註解黑
-[Ban︎] Share Contact 友資黑單
-[Unban︎] Share Contact 友資解黑
-[Banlist︎] 查看黑單
-[Cek ban] 確認黑單
-[Cv mid] 丟出自己mid
-[Cv ︎invite:「mid」] 邀請mid
-[Cv ︎rename:「name」] x
-[Cv ︎gift] x
-[Respo︎n] 報到
-[Bot cancel] x
-[Title:] x 
+Kill ban 踢除黑單
+Kill @ 標註踢人
+Ban @ 標註黑單
+Unban @ 標註解黑
+Ban︎ 友資 友資黑單
+Unban︎ 友資 友資解黑
+Banlist︎ 查看黑單
+Respo︎n 莫言答覆
+
 """
 KAC=[cl,ki,kk,kc]
 mid = cl.getProfile().mid
