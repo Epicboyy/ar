@@ -32,12 +32,11 @@ Respo︎n 莫言答覆
 
 ❂ 踢人指令 ❂
 
-Kill ban 踢除黑單
-Kill @ 標註踢人
 Ban @ 標註黑單
 Unban @ 標註解黑
 Ban︎ 友資 友資黑單
 Unban︎ 友資 友資解黑
+Kill ban 踢除黑單
 Banlist︎ 查看黑單
 
 """
