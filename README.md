@@ -4,7 +4,7 @@ BOT PROTECT CREATOR & ADMIN
 
 How to run Bot :
 ------
-C9 :
+vps :
 - `sudo apt-get update`
 - `sudo apt-get install git`
 - `sudo apt-get install python-sofware-properties`
@@ -15,9 +15,7 @@ C9 :
 - `sudo pip install bs4`
 - `sudo pip install gtts`
 - `sudo pip install googletrans`
-- `git clone https://github.com/Epicboyy/ar`
-- `cd ar`
-- `python arif.py`
+- `git clone https://github.com/Epicboyy/c`
 
 Termux :
 - `pkg update`
@@ -30,27 +28,7 @@ Termux :
 - `pip2 install gtts`
 - `pip2 install beautifulsoup`
 - `pip2 install googletrans`
-- `git clone https://github.com/arifistifik/ar`
-- `cd ar`
-- `python2 arif.py`
-
-Run Bot  :
-------
-C9 :
-- `cd ar`
-- `python arif.py`
-
-Termux :
-- `cd ar`
-- `python2 arif.py`
+- `git clone https://github.com/arifistifik/c`
 
 
 Credit By@arifistifik
-------
-- `Contact him:arifistifik`
-
-Special Thanks To :
-------
-- `LINE-TCR TEAM`
-- `Arifistifik`
-
