@@ -22,7 +22,6 @@ Me︎ 丟出自己友資
 Mc 「mid」
 K on/off 鑑定友資
 Join︎ on/off 自動加入群組開/關
-Gcancel:︎「Number of people」 取消邀請:人數
 Leave︎ on/off 自動離開副本
 Add on/off 自動加入好友
 Share on/off]
