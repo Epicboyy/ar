@@ -7,7 +7,7 @@ import time,random,sys,json,codecs,threading,glob,re
 
 cl = LINETCR.LINE()
 #cl.login(qr=True)
-cl.login(token="EwBn1XcQysFxtOnyLtDf.jxorRZbOqBNQcmQEXgUMRW.9d+vobv/eDDuF4RjxCRZKbvXEjCMxIjWSHxPfb2/gpI=")
+cl.login(token="Ewp8tOSAWMhO0PVOi3zf.jxorRZbOqBNQcmQEXgUMRW.sOcLV9/Q24tGUaJB547i4XgW93GsnKG8myl3OaF7TRo=")
 
 ki = kk = kc = cl 
 
