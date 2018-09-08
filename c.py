@@ -24,7 +24,7 @@ Curl 關閉群組網址
 url 群組網址
 Up 更新時間
 K on/off 鑑定友資
-Id︎ 群組id
+Gid︎ 群組id
 Ginfo 群組資訊
 Cancel 取消邀請
 Gn 群組名稱 更改群組名稱
