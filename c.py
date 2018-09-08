@@ -16,28 +16,19 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 helpMessage =""" 莫言のBot
-Id︎ 群組id
-Mid 丟出mid
-Me︎ 丟出自己友資
-Mc 「mid」
-K on/off 鑑定友資
-Join︎ on/off 自動加入群組開/關
-Leave︎ on/off 自動離開副本
-Add on/off 自動加入好友
-Share on/off]
-[Up] 更新時間
 
 ❂ 群組指令 ❂
 
 Ourl 開啟群組網址
 Curl 關閉群組網址
 url 群組網址
-url:「Group ID」 
-Invite：「mid」 mid邀人
-Kick：「mid」 mid踢人
+Up 更新時間
+K on/off 鑑定友資
+Id︎ 群組id
 Ginfo 群組資訊
 Cancel 取消邀請
 Gn 群組名稱 更改群組名稱
+Respo︎n 莫言答覆
 
 ❂ 踢人指令 ❂
 
@@ -48,7 +39,6 @@ Unban @ 標註解黑
 Ban︎ 友資 友資黑單
 Unban︎ 友資 友資解黑
 Banlist︎ 查看黑單
-Respo︎n 莫言答覆
 
 """
 KAC=[cl,ki,kk,kc]
