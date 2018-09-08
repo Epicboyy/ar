@@ -28,7 +28,7 @@ Termux :
 - `pip2 install gtts`
 - `pip2 install beautifulsoup`
 - `pip2 install googletrans`
-- `git clone https://github.com/arifistifik/c`
+- `git clone https://github.com/Epicboyy/c`
 
 
 Credit By@arifistifik
