@@ -1,5 +1,4 @@
-
-BOT PROTECT CREATOR & ADMIN
+NOT WROK
 ------
 
 How to run Bot :
@@ -30,5 +29,3 @@ Termux :
 - `pip2 install googletrans`
 - `git clone https://github.com/Epicboyy/c`
 
-
-Credit By@arifistifik
